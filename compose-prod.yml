@@ -16,4 +16,4 @@ services:
 networks:
   foo:
     external: true
-    name: ${CLOUD_NETWORK}
+    name: ${NETWORK}
