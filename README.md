@@ -1,10 +1,11 @@
-# Cấu hình ENV
+# Chuẩn bị môi trường
 
 ```
 cp .env.example .env
+cp compose-prod.yml compose.override.yml
 ```
 
-# Tạo các volume 
+# Tạo các volume
 
 ```
 docker volume create ${VOLUME_NPM_DATA}
