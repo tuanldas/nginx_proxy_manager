@@ -24,3 +24,10 @@ docker network create ${CLOUD_NETWORK}
 ```
 docker compose up -d
 ```
+
+# Tài khoản admin mặc định
+
+```
+Email:    admin@example.com
+Password: changeme
+```
