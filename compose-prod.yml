@@ -6,4 +6,4 @@ services:
 networks:
   foo:
     external: true
-    name: ${NETWORK}
+    name: ${PUBLIC_NETWORK_NAME}
